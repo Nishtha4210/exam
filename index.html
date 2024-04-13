@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap exam</title>
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- js -->
+    <link rel="stylesheet" href="assets/js/main.js">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg">  
+        <div class="container">
+            <div><a href="" class="navbar-brand"><img src="assets/images/logo.svg" class="rounded-5" width="170px" height="90px"></a></div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#click">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-nav justify-content-center" id="click">
+                <ul class="navbar-nav gap-5">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <button class="rounded-pill" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                      <a class="nav-link" href="#">Buy Now</a>
+                    </button>
+                    </li>
+                    <li>
+                    </li>
+                  </ul>  
+            </div>
+        </div>
+     </nav> 
+     <!-- navbar end -->
+  <div class="offcanvas offcanvas-start" id="offcanvas">
+    <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvas">Find your best choice</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Look for test drive & find your near shop location for your Dream bike.</p>
+  </div>
+  </div>
+     <!-- slider start -->
+     <section class="container">
+     <div id="carousel1" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/1.png" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/2.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/4.jpg" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+    <!-- slider end -->
+    <section>
+      <div class="container">
+        <div class="f-items mt-5 text-center">
+          <span class="fs-1 border-bottom">My Blogs</span>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-lg-4">
+            <div class="card card-body shadow-lg bg-secondary">
+              <div><img src="assets/images/card1.jpg" height="250px" width="380px" class="rounded-2 img-fluid"></div>
+              <a class="link-light link-offset-1" href="#"><h3>Super Meteor 650</h3></a>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. SapienSapiente nemo, ut dolorumte nemo, ut dolorum...</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-1">
+            <div class="card card-body shadow-lg bg-secondary">
+              <div><img src="assets/images/card2.jpg" height="200px" width="380px" class="rounded-2 img-fluid "></div>
+              <a class="link-light link-offset-1" href="#"><h3>Continental GT</h3></a>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente nemo, ut dolorum...Sapiente nemo, ut dolorum</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-1">
+            <div class="card card-body shadow bg-secondary">
+              <div><img src="assets/images/card3.jpg" height="200px" width="380px" class="rounded-2 img-fluid"></div>
+              <a class="link-light link-offset-1" href="#"><h3>ShotGun 650</h3></a>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente nemo, ut dolorum...Sapiente nemo, ut dolorum</p>
+            </div>
+          </div> 
+      </div>
+     </section>
+     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+<!-- js script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+</html>
